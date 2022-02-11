@@ -41,8 +41,9 @@ _Obviously, the number and type of parameters for your model might differ from t
 [//]: <> (_E.g._ Fully coupled, fully implicit, cell-centered FV with TPFA.)
 
 Fully Implicit Schemes incorporating, flow and transport problem and the well problems.
-We have generated bth Tetra Grid and Pepi Grid
-
+The scheme use is TPFA with a PPU upwinding.
+We have generated both Prism Grid (Extruded Triangulation) and Pepi Grid but are currently presenting results from the Prism Grid.
+ 
 ### Linearization and Solvers
 
 [//]: <>  (_E.g._ Newton with line search, AMG-preconditioned BiCGSTAB for the linear systems.)
