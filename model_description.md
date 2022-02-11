@@ -52,8 +52,10 @@ Direct linear solver. Specially we are using SUPERLU right now
 
 ### Primary Variables
 
-_E.g._ Dependent on local phase composition:
+[//]: <> (_E.g._ Dependent on local phase composition:)
 
-We are using pseudo black oil formulation to simulation the CO2-Water-Brine system, where *p* represents fluid pressure, *Sw* represents water saturation, *Sg* represents CO2 gas saturation
-* Both phases present:
+We are using pseudo black oil formulation to simulate the CO2-Water-Brine system, where *p* represents fluid pressure, *Sw* represents water saturation, *Sg* represents CO2 gas saturation
+* Free CO2 gas exists:
   [p, Sw, Sg]
+* No Free CO2 gas:
+  [p, Sw, Rs]: where Rs represents the dissolved gas/brine ratio
