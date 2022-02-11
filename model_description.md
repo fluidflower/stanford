@@ -38,19 +38,22 @@ _Obviously, the number and type of parameters for your model might differ from t
 
 ### Coupling of flow and transport, temporal and spatial discretization
 
-_E.g._ Fully coupled, fully implicit, cell-centered FV with TPFA.
+[//]: <> (_E.g._ Fully coupled, fully implicit, cell-centered FV with TPFA.)
 
 Fully Implicit Schemes incorporating, flow and transport problem and the well problems.
 We have generated bth Tetra Grid and Pepi Grid
 
 ### Linearization and Solvers
 
-_E.g._ Newton with line search, AMG-preconditioned BiCGSTAB for the linear systems.
+[//]: <>  (_E.g._ Newton with line search, AMG-preconditioned BiCGSTAB for the linear systems.)
+Direct linear solver. Specially we are using SUPERLU right now
 
 
 
 ### Primary Variables
 
 _E.g._ Dependent on local phase composition:
+
+We are using pseudo black oil formulation to simulation the CO2-Water-Brine system, where *p* represents fluid pressure, *Sw* represents water saturation, *Sg* represents CO2 gas saturation
 * Both phases present:
-  ![p_l, S_g](https://render.githubusercontent.com/render/math?math=%5Ctextstyle+p_l%2C+S_g%0A)...
+  [p, Sw, Sg]
