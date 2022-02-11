@@ -40,9 +40,14 @@ _Obviously, the number and type of parameters for your model might differ from t
 
 _E.g._ Fully coupled, fully implicit, cell-centered FV with TPFA.
 
+Fully Implicit Schemes incorporating, flow and transport problem and the well problems.
+We have generated bth Tetra Grid and Pepi Grid
+
 ### Linearization and Solvers
 
 _E.g._ Newton with line search, AMG-preconditioned BiCGSTAB for the linear systems.
+
+
 
 ### Primary Variables
 
