@@ -47,6 +47,18 @@ We have tried on
   - Co2 phase densities [Fenghour and Wakeham, J. Phys. Chem. Ref. Data,, 1998]
   - Co2 viscosity tabulated correlation [Span and Wagner ,J. Phys. Chem. Ref. Data,1996]
 
+#### Solubility limit
+
+_Please provide the assumed solubility limit of CO2 in liquid phase at the tank bottom in kg/m<sup>3</sup>._
+
+### Temperature
+
+_Please provide the assumed temperature inside the computational domain in °C._
+
+### Domain volume
+
+_Please provide the assumed total volume of the computational domain in m<sup>3</sup>._
+
 ### Spatial parameters
 
 _Please provide the relevant facies parameters as a csv file._<br>
@@ -79,3 +91,16 @@ We are using pseudo black oil formulation to simulate the CO2-Water-Brine system
   [p, Sw, Sg]
 * No Free CO2 gas:
   [p, Sw, Rs]: where Rs represents the dissolved gas/brine ratio
+
+
+### Computational Grid
+
+_Please provide the number and shape of grid elements._
+
+### Performance
+
+| Indicator                            |  Average |      Min |      Max |
+|:-------------------------------------|---------:|---------:|---------:|
+| time step size [s]                   | 1.23e+56 | 1.23e+56 | 1.23e+56 |
+| # nonlinear iterations per time step |      123 |      123 |      123 |
+| # linear iterations per solve        |      123 |      123 |      123 |
