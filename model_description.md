@@ -95,12 +95,12 @@ We are using pseudo black oil formulation to simulate the CO2-Water-Brine system
 
 ### Computational Grid
 
-_Please provide the number and shape of grid elements._
+Both computational grid with 6094 prism cells and 21392 prism cells are used
 
 ### Performance
 
 | Indicator                            |  Average |      Min |      Max |
 |:-------------------------------------|---------:|---------:|---------:|
-| time step size [s]                   | 1.23e+56 | 1.23e+56 | 1.23e+56 |
-| # nonlinear iterations per time step |      123 |      123 |      123 |
-| # linear iterations per solve        |      123 |      123 |      123 |
+| time step size [s]                   |     2.28 |          |     4.32 | 
+| # nonlinear iterations per time step |    1.074 |        2 |       25 |
+| # linear iterations per solve        |        1 |        1 |        1 |
