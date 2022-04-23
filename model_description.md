@@ -43,7 +43,7 @@ mu_c=15.0e-6 Pa s
 
 * **Gas phase:** 
 
-rho_c0=1.7 kg/m^3 c_c=1e-5 Pa^-1
+rho_c0=1.7 kg/m^3
 
 #### Solubility limit
 
