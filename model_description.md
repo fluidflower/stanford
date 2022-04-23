@@ -24,40 +24,38 @@ We use black oil formulation to simulate CO2 injection, where oil phase represen
 
 * **Relative permeability:** 
 We have tried on
-  - Linear relative permeability
   - Quadratic relative permeability
 
 #### Phase composition: Applied equations of state
 
 * **CO2 in liquid phase:** 
-  * Our first method to calculate the gas solubility 
+  * Our method to calculate the gas solubility 
     - Estimate c_max factor at 20 degree C and 1 atm [R.F Weiss, Marine Chemestry, 1974]
     - Formula to calculate Rs_max [T.H Sandve et al., Trindheim CCS Conf., 2021] 
-  * Our second method to calculate the gas solubility
-    - Solubility [Duan and Sun, Chemical Geology, 2003]
 
 * **Water in gas phase:** ...
 
 #### Density
 
 * **Liquid phase:** 
-  - Brine densities and viscosity tabulated correlation [Phillips et al.,Lawrence Berkeley Laboratory report, ,1981]
+mu_w=0.8e-3 Pa s
+mu_c=15.0e-6 Pa s
 
 * **Gas phase:** 
-  - Co2 phase densities [Fenghour and Wakeham, J. Phys. Chem. Ref. Data,, 1998]
-  - Co2 viscosity tabulated correlation [Span and Wagner ,J. Phys. Chem. Ref. Data,1996]
+
+rho_c0=1.7 kg/m^3
 
 #### Solubility limit
 
-_Please provide the assumed solubility limit of CO2 in liquid phase at the tank bottom in kg/m<sup>3</sup>._
+We assumed a solubulity of 1.5 kg/m<sup>3</sup>, though we varied this parameters._
 
 ### Temperature
 
-_Please provide the assumed temperature inside the computational domain in °C._
+We assumed a 20 °C temperature._
 
 ### Domain volume
 
-_Please provide the assumed total volume of the computational domain in m<sup>3</sup>._
+We assumed 0.084 m<sup>3</sup>._
 
 ### Spatial parameters
 
